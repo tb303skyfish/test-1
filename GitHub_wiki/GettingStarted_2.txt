@@ -1,0 +1,20 @@
+# Home Page
+このWikiでは、gitとgithubの使い方について説明します。
+
+## とりあえず使ってみよう
+
+* とりあえず使ってみよう(cygwin+git,github編)
+<br>gitのインストールから、githubへのコミットまでを行なう
+
+* とりあえず使ってみよう(GitHub for Windows編)
+<br>Windows用GitHubクライアントを利用して、githubへのコミットを行なう
+
+## Git,GitHubでできること
+
+* 現状の確認
+* 過去バージョンの利用
+
+## 参考資料
+
+* FAQ
+
