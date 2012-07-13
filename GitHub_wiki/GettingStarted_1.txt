@@ -1,20 +1,50 @@
-# Home Page
-このWikiでは、gitとgithubの使い方について説明します。
+# とりあえず使ってみよう(cygwin+git,github編)
 
-## とりあえず使ってみよう
 
-* とりあえず使ってみよう(cygwin+git,github編)
-<br>gitのインストールから、githubへのコミットまでを行なう
+## cygwinやGitのインストール
 
-* とりあえず使ってみよう(GitHub for Windows編)
-<br>Windows用GitHubクライアントを利用して、githubへのコミットを行なう
+1. cygwinをダウンロード
 
-## Git,GitHubでできること
+    [cygwinのWebサイト](http://www.cygwin.com/)から、setup.exeをダウンロードし、setup.exeを実行する
 
-* 現状の確認
-* 過去バージョンの利用
+2. cygwinをインストール
 
-## 参考資料
+    パッケージの選択時に、git,ssh,vimで検索して、各パッケージをインストールする
 
-* FAQ
 
+## GithHubのアカウント作成
+
+1. GitHubのアカウント作成
+
+    [GitHubのWebサイト](https://github.com/)にアクセスし、情報を入力して、アカウントを作成する
+
+2. リポジトリ作成
+
+
+## GitHubにSSH公開鍵を登録
+
+* ユーザ名、メルアド、補完設定を行う
+* cygwinでssh-keygenを実行
+* 保存場所とパスフレーズを入力
+* vimで公開鍵.pubを開き、中身をコピー
+* Account Setting > SSH keys > Add ssh keys > 鍵の名前入力、中身をペースト
+* cygwinで接続確認
+
+## commitを行う(ReadMeのコミット)
+
+* GitHubでリポジトリを作成
+* ローカルリポジトリとなるフォルダ作成
+* Gitで使用する初期化
+* ReadMeファイルを新規作成（touch ReadMe）
+* ローカルにcommitを行なう
+* リモートリポジトリを指定して、GitHubにもcommitを行なう
+* リポジトリを開き、コミットされているか確認
+* 次回i以降以降のコミット方法
+
+
+##　issueを投げる
+
+
+
+
+＊
